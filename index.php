@@ -1,6 +1,8 @@
 <?php
 //@todo: move secret key files
 die('test');
+
+
 require_once __DIR__ . '/../webapp00001_app/vendor/autoload.php';
 switch($_SERVER["HTTP_HOST"]){
  case "localhost:8181":
